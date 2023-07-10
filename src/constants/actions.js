@@ -1,0 +1,25 @@
+// get all products
+export const GET_PRODUCTS_REQUEST = "GET_PRODUCTS_REQUEST";
+export const GET_PRODUCTS_SUCCESS = 'GET_PRODUCTS_SUCCESS';
+export const GET_PRODUCTS_FAIL = "GET_PRODUCTS_FAIL";
+
+// get single products
+export const GET_SINGLE_PRODUCT_REQUEST = "GET_SINGLE_PRODUCT_REQUEST";
+export const GET_SINGLE_PRODUCT_SUCCESS = 'GET_SINGLE_PRODUCT_SUCCESS';
+export const GET_SINGLE_PRODUCT_FAIL = "GET_SINGLE_PRODUCT_FAIL";
+
+// basket actions
+export const ADD_QTY_ITEM = "ADD_QTY_ITEM";
+export const MINUS_QTY_ITEM = "MINUS_QTY_ITEM";
+export const ADD_TO_BASKET = "ADD_TO_BASKET";
+export const CLEAR_BASKET = "CLEAR_BASKET";
+export const REMOVE_FROM_BASKET = "REMOVE_FROM_BASKET";
+export const SET_BASKET_ITEMS = "SET_BASKET_ITEMS";
+export const SET_BASKET_MSG_ON = "SET_BASKET_MSG_ON";
+export const SET_BASKET_MSG_OFF = "SET_BASKET_MSG_OFF";
+export const GET_BASKET_TOTAL = "GET_BASKET_TOTAL";
+
+// filter actions
+export const SET_LISTVIEW = "SET_LISTVIEW";
+export const SET_GRIDVIEW = "SET_GRIDVIEW";
+export const SET_SELECT_ALL = "SET_SELECT_ALL";
